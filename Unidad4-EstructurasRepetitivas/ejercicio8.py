@@ -11,7 +11,7 @@ numeros_impares: int = 0
 num_max:int = 100
 
 for i in range(1, num_max + 1):
-    num: int = int(input('Ingresa el número: '))
+    num: int = int(input(f'Ingresa el número {i}: '))
     if num % 2 == 0:
         numeros_pares = numeros_pares + 1
     else:

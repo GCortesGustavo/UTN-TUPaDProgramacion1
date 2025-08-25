@@ -1,4 +1,4 @@
-magnitud = float(input('Ingrese la magnitud del terremoto: '))
+magnitud: float = float(input('Ingrese la magnitud del terremoto: '))
 
 if magnitud < 0:
     print('Magnitud inválida')

@@ -1,4 +1,4 @@
-contrasena = input('Ingrese su contraseña: ')
+contrasena: str = input('Ingrese su contraseña: ')
 
 if 8 <= len(contrasena) <=18:
     print('Ha ingresado una contraseña correcta')

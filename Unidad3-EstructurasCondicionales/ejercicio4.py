@@ -1,4 +1,4 @@
-edad = int(input('Ingrese su edad: '))
+edad: int = int(input('Ingrese su edad: '))
 
 if edad < 12:
     print('Pertenece a la categoría Niño/a')

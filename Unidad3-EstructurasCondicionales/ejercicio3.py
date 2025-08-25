@@ -1,4 +1,4 @@
-numero = int(input('Ingrese un número: ' ))
+numero:int = int(input('Ingrese un número: ' ))
 
 if numero % 2 == 0:
     print('Ha ingresado un número par')

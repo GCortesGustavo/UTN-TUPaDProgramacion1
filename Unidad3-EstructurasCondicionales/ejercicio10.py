@@ -1,6 +1,6 @@
-hemisferio = input('Ingrese el hemisferio (Norte/Sur): ')
-mes = input('Escriba el mes del año: ')
-dia = int(input('Ingrese qué día es: '))
+hemisferio: str = input('Ingrese el hemisferio (Norte/Sur): ')
+mes: str = input('Escriba el mes del año: ')
+dia: int = int(input('Ingrese qué día es: '))
 
 if hemisferio.lower() == 'norte':
     if (mes.lower() == 'diciembre' and dia >= 21 ) or (mes.lower() == 'enero') or (mes.lower() == 'febrero') or (mes.lower() == 'marzo' and dia <= 20):

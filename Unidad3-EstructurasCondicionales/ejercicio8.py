@@ -1,4 +1,4 @@
-nombre = input('Ingrese su nombre: ')
+nombre: str = input('Ingrese su nombre: ')
 
 print('Hola, ' + nombre)
 
@@ -8,7 +8,7 @@ print('2: Si quiere su nombre en minúscular')
 print('3: Si quiere su primera letra en mayúscula')
 
 
-opcion = int(input('Ingrese la opción deseada (1, 2 o 3): '))
+opcion:int = int(input('Ingrese la opción deseada (1, 2 o 3): '))
 
 if opcion == 1:
     print(nombre.upper())
