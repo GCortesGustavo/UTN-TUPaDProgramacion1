@@ -1,3 +1,6 @@
+# 6) El paquete statistics de python contiene funciones que permiten tomar una lista de números
+# y calcular la moda, la mediana y la media de dichos números.
+
 import random
 from statistics import mode, median, mean
 

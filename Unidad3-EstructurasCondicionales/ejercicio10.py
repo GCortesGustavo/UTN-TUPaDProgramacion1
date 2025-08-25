@@ -1,3 +1,8 @@
+# 10) Utilizando la información aportada en la siguiente tabla sobre las estaciones del año
+# Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes
+# del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
+# si el usuario se encuentra en otoño, invierno, primavera o verano.
+
 hemisferio: str = input('Ingrese el hemisferio (Norte/Sur): ')
 mes: str = input('Escriba el mes del año: ')
 dia: int = int(input('Ingrese qué día es: '))
