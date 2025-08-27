@@ -2,7 +2,7 @@
 # secuencia. El programa debe detenerse y mostrar el total acumulado cuando el usuario ingrese
 # un 0.
 
-num: int = int(input('Ingrese un número entero(0 para terminar): '))
+num: int = 1
 suma: int = 0
 
 while num != 0:
