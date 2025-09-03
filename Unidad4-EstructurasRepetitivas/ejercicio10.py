@@ -3,8 +3,15 @@
 
 numero: str = input("Ingrese un número: ")
 invertido = ""
-for i in range(len(numero) - 1, -1, -1):
-    invertido += numero[i]
+
+if numero.startswith('-'):
+    for i in range(len(numero) - 1, 0, -1):  # Empieza en len(numero)-1 y termina en 1
+        invertido += numero[i]
+    invertido = '-' + invertido
+else:
+    for i in range(len(numero) - 1, -1, -1):
+        invertido += numero[i]
+
 print("Número invertido:", invertido)
 
 # Otra forma de hacerlo usando slicing
