@@ -17,8 +17,6 @@ precios_frutas['Melón'] = 2800
 print(precios_frutas)
 print('==========================')
 #Ejercicio 3:
-lista_frutas :list = []
-lista_frutas.append(precios_frutas.keys())
-
+lista_frutas :list = list(precios_frutas.keys())
 
 print('La lista de los nombres de las frutas es: ', lista_frutas)
