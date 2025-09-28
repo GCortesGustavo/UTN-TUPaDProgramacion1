@@ -1,8 +1,9 @@
 def saludar_usuario(nombre:str):
-    print(f'Hola {nombre}!')
+    return f'Hola {nombre}!'
 
 def main():
     usuario: str = input('Introduzca su nombre: ')
-    saludar_usuario(usuario)
+    saludo:str = saludar_usuario(usuario)
+    print(saludo)
 
 main()
