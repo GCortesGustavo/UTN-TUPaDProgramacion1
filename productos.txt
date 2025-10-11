@@ -1,0 +1,8 @@
+nombre,precio,cantidad
+Manzana,1500,100
+Banana,1700,50
+Pera,1100,80
+Uva,800,400
+Sandía,2000,64
+Celular,8000,20
+Compu,15000,20
