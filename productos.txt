@@ -1,8 +1,10 @@
 nombre,precio,cantidad
-Manzana,1500,100
-Banana,1700,50
-Pera,1100,80
-Uva,800,400
-Sandía,2000,64
-Celular,8000,20
-Compu,15000,20
+Manzana,1500.0,100
+Banana,1700.0,50
+Pera,1100.0,80
+Uva,800.0,400
+Sandía,2000.0,64
+Celular,8000.0,20
+Compu,15000.0,20
+comida,123.0,2
+hola,213.0,23
